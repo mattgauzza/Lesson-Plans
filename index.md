@@ -21,5 +21,5 @@ Here we have two possibilities:
 ### Art
 
 
-{% include category_list.html current_category="news" post_limit=10 list_title="News" margin-left=4 margin-bottom=4 %}
+{% include category_list.html current_category="news" post_limit=10 list_title="News" margin-left=0 margin-bottom=4 %}
  
