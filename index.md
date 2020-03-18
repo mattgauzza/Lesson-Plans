@@ -3,7 +3,7 @@ layout: page
 title: Lesson Plans
 ---
 
-What are you going to do with your kids?  We decided to make some short lesson plans you can do with your kids.
+What are you going to do with your kids?  We decided to make some short lesson plans to help you keep your kids busy for at least a little bit trhoughout the day.
 
 ## First Grade
 
