@@ -1,4 +1,4 @@
-<div>
+<div class="mr-{{ include.margin-right }}">
   {%- if site.categories[include.current_category].size > 0 -%}
     <p class="h4">{{ include.list_title | default: "Posts" }}</p>
     <ul class="list-unstyled">
@@ -19,8 +19,5 @@
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
-
 </div>

@@ -8,8 +8,8 @@ What are you going to do with your kids?  We decided to make some short lesson p
 ## First Grade
 
 ### Math
-* **Graphs**
-  {% include category_list.html current_category="graphs" post_limit=20 list_title=blank %}
+
+  {% include category_list.html current_category="graphs" post_limit=20 list_title="Graphs" margin-right=3 %}
  
  
 ### Reading
