@@ -9,9 +9,9 @@ What are you going to do with your kids?  We decided to make some short lesson p
 
 ### Math
 * **Graphs**
-
-  {% include category-list.html current_category: "graph", post_limit: 5 %}
-
+ 
+      {%- for post in site.categories.graphs.posts limit:include.5 -%}
+ 
 ### Reading
 
 Here we have two possibilities:

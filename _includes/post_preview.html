@@ -1,4 +1,4 @@
-<li>
+<div>
     <span class="text-muted">
       {%- assign date_format = "%b %-d, %Y" -%}
       {{ post.date | date: date_format }}
@@ -11,4 +11,4 @@
     {%- if site.show_excerpts -%}
       {{ post.excerpt }}
     {%- endif -%}
-  </li>
+</div>
