@@ -23,3 +23,5 @@ Here we have two possibilities:
 ### Art
 
 * [LUNCH DOODLES with Mo Willems! Episode 1](https://www.youtube.com/watch?v=RmzjCPQv3y8)
+
+{{ site.categories["math"] | jsonify  }}
