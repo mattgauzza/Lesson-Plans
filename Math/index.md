@@ -7,7 +7,7 @@ list_title: Latest Math Posts
   {%- if site.categories.math.size > 0 -%}
     <p class="h4">{{ page.list_title | default: "Posts" }}</p>
     <ul class="list-unstyled">
-      {%- for post in  site.categories.math.posts -%}
+      {%- for post in  site.categories.math limit:20 -%}
       <li>
         <span class="text-muted">
           {%- assign date_format = "%b %-d, %Y" -%}
@@ -24,5 +24,4 @@ list_title: Latest Math Posts
       </li>
       {%- endfor -%}
     </ul>
-
   {%- endif -%}

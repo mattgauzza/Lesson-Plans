@@ -10,10 +10,9 @@ What are you going to do with your kids?  We decided to make some short lesson p
 ### Math
 * **Graphs**
 
-  {%- if site.categories.math.size > 0 -%}
-    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
+  {%- if site.categories.graphs.size > 0 -%}
     <ul class="list-unstyled">
-      {%- for post in  site.categories.math.posts -%}
+      {%- for post in  site.categories.math -%}
       <li>
         <span class="text-muted">
           {%- assign date_format = "%b %-d, %Y" -%}
@@ -30,7 +29,6 @@ What are you going to do with your kids?  We decided to make some short lesson p
       </li>
       {%- endfor -%}
     </ul>
-
   {%- endif -%}
 
 
