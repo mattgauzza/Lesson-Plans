@@ -13,7 +13,7 @@ layout: default
   <section>
     {{ content }}
   </section>
-
+{{ page.category | inspect }}
   {%- if page.category.size > 0 -%}
     <p class="h4">{{ page.list_title | default: "Posts" }}</p>
     <ul class="list-unstyled">
