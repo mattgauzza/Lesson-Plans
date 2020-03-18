@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-video
 title: LUNCH DOODLES with Mo Willems! Episode 1
 categories: [news]
 tags: [fun]
