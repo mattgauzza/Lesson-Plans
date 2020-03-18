@@ -5,7 +5,8 @@ layout: default
 
   <header>
     <h1>{{ page.title | escape }}</h1>
-    <p class="text-muted">
+    <div class="row text-muted">
+    <div class="col">
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {%- assign date_format = "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
@@ -13,8 +14,12 @@ layout: default
       {%- if page.author -%}
         • {{ page.author }}
       {%- endif -%}
-      <div class="pull-right">{% include tag_list.html tags=page.tags  %}</div>
+      </div>  
+      <div class="col-auto">
+      {% include tag_list.html tags=page.tags  %}
+      </div>
     </p>
+    </div>
   </header>
 
   <section>

@@ -26,11 +26,3 @@ Here is a way that you can interact with family &amp; friends and gather data an
 
 ## Step 2
 
-
-<pre>
-    site: {{ site | jsonify | escape }}
-    page: {{ page | jsonify | escape }}
-    layout: {{ layout | jsonify | escape }}
-    content: {{ content | jsonify | escape }}
-    paginator: {{ paginator | jsonify | escape }}
-</pre>
