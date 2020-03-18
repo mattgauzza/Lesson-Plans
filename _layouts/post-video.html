@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article>
+
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <div class="row text-muted mb-2">
+    <div class="col">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {%- assign date_format = "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • {{ page.author }}
+      {%- endif -%}
+      </div>  
+      <div class="col-auto">
+      {% include tag_list.html tags=page.tags  %}
+      </div>
+    </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="text-center mb-3">
+    <iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    {{ content }}
+  </section>
+
+</article>
