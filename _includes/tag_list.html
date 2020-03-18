@@ -1,0 +1,5 @@
+<div>
+    {%- for tag in include.tags -%}
+    <a class="text-muted mr-1" href="/Lesson-Plans/tag/{{ tag | escape }}">{{ tag | escape }}</a>
+    {%- endfor -%}
+</div>
