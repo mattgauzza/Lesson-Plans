@@ -13,6 +13,9 @@
             {{ post.title | escape }}
           </a>
         </p>
+        <span class="text-muted">
+            {{ post.tags | jsonify }}
+        </span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Pizza VS CheeseBurgers VS Frenchfries
-categories: [math, graphs, firstgrade]
+categories: [math, graphs]
+tags: [first grade, math, graph]
 ---
 #### Math - Graph (2020-3-18)
 
