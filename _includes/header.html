@@ -12,6 +12,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/Lesson-Plans/Math">Math</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Lesson-Plans/News">News</a>
+        </li>
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
