@@ -9,7 +9,7 @@ What are you going to do with your kids?  We decided to make some short lesson p
 
 ### Math
 * **Graphs**
- 
+  {% include category_list.html current_category="graphs" post_limit=20 %}
  
  
 ### Reading
