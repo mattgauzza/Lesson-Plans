@@ -10,7 +10,7 @@ What are you going to do with your kids?  We decided to make some short lesson p
 ### Math
 * **Graphs**
 
-  [Pizza VS CheeseBurgers VS Frenchfries](/Pages/Math/Graph-2020-3-18.md) 
+  [Pizza VS CheeseBurgers VS Frenchfries](/Math/Graph-2020-3-18.md) 
 
 ### Reading
 
