@@ -3,7 +3,7 @@
   {%- if site.categories[include.current_category].size > 0 -%}
     <p class="h4">{{ include.list_title | default: "Posts" }}</p>
     <ul class="list-unstyled">
-      {%- for post in site.categories[include.current_category].posts limit:include.post_limit-%}
+      {%- for post in site.categories[include.current_category] limit:include.post_limit-%}
       <li>
         <span class="text-muted">
           {%- assign date_format = "%b %-d, %Y" -%}
