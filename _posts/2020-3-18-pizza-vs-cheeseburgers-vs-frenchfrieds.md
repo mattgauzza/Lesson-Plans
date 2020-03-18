@@ -5,7 +5,7 @@ categories: [math, graphs]
 tags: [first grade, math, graph]
 ---
 #### Math - Graph (2020-3-18)
-{% include tag_list.html tags=post.tags  %}
+{% include tag_list.html tags=page.tags  %}
 
 Here is a way that you can interact with family &amp; friends and gather data and have your children create a bar graph with that data.
 
