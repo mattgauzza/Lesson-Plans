@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pizza VS CheeseBurgers VS Frenchfries
+title: LUNCH DOODLES with Mo Willems! Episode 1
 categories: [news]
 tags: [fun]
 ---
