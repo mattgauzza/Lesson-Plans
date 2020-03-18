@@ -1,19 +1,9 @@
 <div>
 
-  {%- if page.title -%}
-  <header>
-    <h1>{{ page.title }}</h1>
-  </header>
-  {%- endif -%}
-
-  <section>
-    {{ content }}
-  </section>
-{{ page | jsonify  }}
-  {%- if site.categories[page.current_category].size > 0 -%}
-    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
+  {%- if site.categories[include.current_category].size > 0 -%}
+    <p class="h4">{{ include.list_title | default: "Posts" }}</p>
     <ul class="list-unstyled">
-      {%- for post in site.categories[page.current_category].posts limit:page.post_limit-%}
+      {%- for post in site.categories[include.current_category].posts limit:include.post_limit-%}
       <li>
         <span class="text-muted">
           {%- assign date_format = "%b %-d, %Y" -%}
