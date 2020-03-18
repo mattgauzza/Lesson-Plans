@@ -1,9 +1,9 @@
 <div class="ml-{{ include.margin-left }}">
   {%- if site.categories[include.current_category].size > 0 -%}
     <p class="h4">{{ include.list_title | default: "Posts" }}</p>
-    <ul class="list-unstyled">
+    <ul class="list-group">
       {%- for post in site.categories[include.current_category] -%}
-      <li>
+      <li class="list-group-item">
         <span class="text-muted">
           {%- assign date_format = "%b %-d, %Y" -%}
           {{ post.date | date: date_format }}
