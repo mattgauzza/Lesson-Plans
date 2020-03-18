@@ -31,9 +31,6 @@ What are you going to do with your kids?  We decided to make some short lesson p
     </ul>
   {%- endif -%}
 
-
-  [Pizza VS CheeseBurgers VS Frenchfries](/Math/Graph-2020-3-18.md) 
-
 ### Reading
 
 Here we have two possibilities:
