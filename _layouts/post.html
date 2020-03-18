@@ -13,6 +13,7 @@ layout: default
       {%- if page.author -%}
         • {{ page.author }}
       {%- endif -%}
+      <div class="pull-right">{% include tag_list.html tags=page.tags  %}</div>
     </p>
   </header>
 
