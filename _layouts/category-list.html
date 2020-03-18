@@ -13,11 +13,11 @@ layout: default
   <section>
     {{ content }}
   </section>
-
-  {%- if page.category.size > 0 -%}
+{{ page | jsonify  }}
+  {%- if site.categories[page.current_category].size > 0 -%}
     <p class="h4">{{ page.list_title | default: "Posts" }}</p>
     <ul class="list-unstyled">
-      {%- for post in page.category.posts -%}
+      {%- for post in site.categories[page.current_category].posts limit:page.post_limit-%}
       <li>
         <span class="text-muted">
           {%- assign date_format = "%b %-d, %Y" -%}
